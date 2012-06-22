@@ -1,5 +1,7 @@
-# The Pokayoke Guide to Developing Software
-@@buy pokayoke.com
+---
+layout: main
+title: The Pokayoke Guide to Developing Software
+---
 
 ## Need
 
