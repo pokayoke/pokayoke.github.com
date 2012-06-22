@@ -95,6 +95,8 @@ You should write a card (this can be a physical 3x5 card or a task in some kind 
 > 
 > This is to test the hypothesis that our customers want to board early. We'll consider the hypothesis proven if more than 2% of the experimental group presses the button. We'll also monitor their purchase of other upgrades and their check-in completion rate to make sure introducing the button doesn't have any severe adverse effects.
 
+Note that the first paragraph decides who gets experimented on. The second is a story about a change to a user's experience. And the third paragraph explains why we're testing and what metrics we'll look at.
+
 This will go into a stack of cards (or an online todo list) sorted by priority, with the most important hypotheses to test at the top. Your designer, when they're done with their current task, will pull a card from the top of the pile. They will then work with the product owner to design what this experience should look like (where do you put the button? what exactly does it say?). Once the product owner has signed off on it, they'll hand the card to a programmer and work with them to implement the design.
 
 Practical problems with implementation or experience with actually using it once implemented may cause them to revise the design a couple times, and maybe they bring the product owner in for more feedback on their revisions.
