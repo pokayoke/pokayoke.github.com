@@ -6,7 +6,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 body { font-size: 87.5%; 
 /*  background: url("http://24ways.org/examples/compose-to-a-vertical-rhythm/underline.gif");*/
 }
-html>body { font-size: 12px;}
+html>body { font-size: 14px;}
 p, ol,ul,  pre { font-size: 1em; margin-bottom: 1.5em; line-height: 1.5em;}
 sup { vertical-align: super; line-height: .1em}
 pre { padding-left: 1em; }
