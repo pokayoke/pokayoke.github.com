@@ -123,7 +123,7 @@ If you're building a network service (e.g. a web application), you should design
 
 4. All backing services (like databases or in-memory caches) are treated as services. No distinction is made between local and third-party services; they're all accessed over the network.
 
-5. Code is deployed in three spearate stages: build (in which the software is compiled and built), release (in which it's combined with the configuration environment and put onto the appropriate servers), and run (in which it's executed). These stages should be completely isolated -- the server can't change its configuration at runtime, since the release stage has already been passed. And the release process can't edit the software, since the build stage has already passed.
+5. Code is deployed in three separate stages: build (in which the software is compiled and built), release (in which it's combined with the configuration environment and put onto the appropriate servers), and run (in which it's executed). These stages should be completely isolated -- the server can't change its configuration at runtime, since the release stage has already been passed. And the release process can't edit the software, since the build stage has already passed.
 
 6. The application should execute as a series of stateless processes that share nothing -- any process should be able to be killed at any time. This means any state needs to be stored in one of the backing services.
 
